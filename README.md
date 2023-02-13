@@ -66,7 +66,7 @@ A documentation is not a simple word, it’s a real sentence explaining what’s
 
 # Python Unit Tests
 
-Allowed editors: vi, vim, emacs
+= Allowed editors: vi, vim, emacs
 
 All your files should end with a new line
 
@@ -98,6 +98,46 @@ We strongly encourage you to work together on test cases, so that you don’t mi
 
 # GitHub
 There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
+
+# More Info
+## Execution
+Your shell should work like this in interactive mode:
+```
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb) 
+(hbnb) 
+(hbnb) quit
+$
+```
+But also in non-interactive mode: (like the Shell project in C)
+
+```
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb) 
+$
+```
 
 All tests should also pass in non-interactive mode: $ echo "python3 -m unittest discover tests" | bash
 
