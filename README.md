@@ -1,5 +1,7 @@
 # AirBnB clone - The console
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230213T082207Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0b8c569c9d508f2c9fff67a3e6c2ccf03821de96a3ce1530548139375fa18186)
+
+![image](https://user-images.githubusercontent.com/24642339/218415899-18ef9523-9d5f-407c-94e6-ef09f6273935.png)
+
 
 # Background Context
 
