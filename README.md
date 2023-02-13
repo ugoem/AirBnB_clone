@@ -98,3 +98,7 @@ We strongly encourage you to work together on test cases, so that you don’t mi
 
 # GitHub
 There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
+
+All tests should also pass in non-interactive mode: $ echo "python3 -m unittest discover tests" | bash
+
+![image](https://user-images.githubusercontent.com/24642339/218416237-2c44ab9b-5095-4e15-8a43-e1d4f194e3f7.png)
